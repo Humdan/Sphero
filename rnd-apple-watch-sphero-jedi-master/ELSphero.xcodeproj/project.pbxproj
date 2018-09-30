@@ -1,0 +1,879 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07EAD0631EFFD3AE00E272A6 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07EAD0621EFFD3AE00E272A6 /* ExternalAccessory.framework */; };
+		2C64DD651C43C97000244C4B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C64DD641C43C97000244C4B /* AppDelegate.swift */; };
+		2C64DD671C43C97000244C4B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C64DD661C43C97000244C4B /* ViewController.swift */; };
+		2C64DD6A1C43C97000244C4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C64DD681C43C97000244C4B /* Main.storyboard */; };
+		2C64DD6C1C43C97000244C4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C64DD6B1C43C97000244C4B /* Assets.xcassets */; };
+		2C64DD6F1C43C97000244C4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C64DD6D1C43C97000244C4B /* LaunchScreen.storyboard */; };
+		2C64DD7A1C43C97000244C4B /* ELSpheroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C64DD791C43C97000244C4B /* ELSpheroTests.swift */; };
+		2C64DD851C43C97000244C4B /* ELSpheroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C64DD841C43C97000244C4B /* ELSpheroUITests.swift */; };
+		2C64DD8A1C43C97000244C4B /* ELSphero WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 2C64DD891C43C97000244C4B /* ELSphero WatchKit App.app */; };
+		2C64DD901C43C97000244C4B /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C64DD8E1C43C97000244C4B /* Interface.storyboard */; };
+		2C64DD921C43C97000244C4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C64DD911C43C97000244C4B /* Assets.xcassets */; };
+		2C64DD991C43C97000244C4B /* ELSphero WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2C64DD981C43C97000244C4B /* ELSphero WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2C64DDA01C43C97000244C4B /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C64DD9F1C43C97000244C4B /* InterfaceController.swift */; };
+		2C64DDA21C43C97000244C4B /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C64DDA11C43C97000244C4B /* ExtensionDelegate.swift */; };
+		2C64DDA41C43C97000244C4B /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C64DDA31C43C97000244C4B /* NotificationController.swift */; };
+		2C64DDA61C43C97000244C4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C64DDA51C43C97000244C4B /* Assets.xcassets */; };
+		2C64DDBF1C43D63100244C4B /* OvalCompiler.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C64DDBB1C43D63100244C4B /* OvalCompiler.framework */; };
+		2C64DDC01C43D63100244C4B /* RobotKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C64DDBC1C43D63100244C4B /* RobotKit.framework */; };
+		2C64DDC11C43D63100244C4B /* RobotUIKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2C64DDBD1C43D63100244C4B /* RobotUIKit.bundle */; };
+		2C64DDC21C43D63100244C4B /* RobotUIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C64DDBE1C43D63100244C4B /* RobotUIKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2C64DD761C43C97000244C4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C64DD591C43C97000244C4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C64DD601C43C97000244C4B;
+			remoteInfo = ELSphero;
+		};
+		2C64DD811C43C97000244C4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C64DD591C43C97000244C4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C64DD601C43C97000244C4B;
+			remoteInfo = ELSphero;
+		};
+		2C64DD8B1C43C97000244C4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C64DD591C43C97000244C4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C64DD881C43C97000244C4B;
+			remoteInfo = "ELSphero WatchKit App";
+		};
+		2C64DD9A1C43C97000244C4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C64DD591C43C97000244C4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C64DD971C43C97000244C4B;
+			remoteInfo = "ELSphero WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2C64DDAD1C43C97100244C4B /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				2C64DD991C43C97000244C4B /* ELSphero WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C64DDB11C43C97100244C4B /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				2C64DD8A1C43C97000244C4B /* ELSphero WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		07EAD0621EFFD3AE00E272A6 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		07EAD0641EFFD3AE00E272A6 /* ELSphero.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ELSphero.entitlements; sourceTree = "<group>"; };
+		2C64DD611C43C97000244C4B /* ELSphero.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ELSphero.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C64DD641C43C97000244C4B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2C64DD661C43C97000244C4B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2C64DD691C43C97000244C4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2C64DD6B1C43C97000244C4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2C64DD6E1C43C97000244C4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2C64DD701C43C97000244C4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C64DD751C43C97000244C4B /* ELSpheroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ELSpheroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C64DD791C43C97000244C4B /* ELSpheroTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ELSpheroTests.swift; sourceTree = "<group>"; };
+		2C64DD7B1C43C97000244C4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C64DD801C43C97000244C4B /* ELSpheroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ELSpheroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C64DD841C43C97000244C4B /* ELSpheroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ELSpheroUITests.swift; sourceTree = "<group>"; };
+		2C64DD861C43C97000244C4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C64DD891C43C97000244C4B /* ELSphero WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ELSphero WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C64DD8F1C43C97000244C4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		2C64DD911C43C97000244C4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2C64DD931C43C97000244C4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C64DD981C43C97000244C4B /* ELSphero WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ELSphero WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C64DD9E1C43C97000244C4B /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		2C64DD9F1C43C97000244C4B /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		2C64DDA11C43C97000244C4B /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		2C64DDA31C43C97000244C4B /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		2C64DDA51C43C97000244C4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2C64DDA71C43C97100244C4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C64DDBB1C43D63100244C4B /* OvalCompiler.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OvalCompiler.framework; path = Externals/OvalCompiler.framework; sourceTree = "<group>"; };
+		2C64DDBC1C43D63100244C4B /* RobotKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RobotKit.framework; path = Externals/RobotKit.framework; sourceTree = "<group>"; };
+		2C64DDBD1C43D63100244C4B /* RobotUIKit.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = RobotUIKit.bundle; path = Externals/RobotUIKit.bundle; sourceTree = "<group>"; };
+		2C64DDBE1C43D63100244C4B /* RobotUIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RobotUIKit.framework; path = Externals/RobotUIKit.framework; sourceTree = "<group>"; };
+		2C64DDC31C43D75B00244C4B /* OvalSampleSwift-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OvalSampleSwift-Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C64DD5E1C43C97000244C4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C64DDC01C43D63100244C4B /* RobotKit.framework in Frameworks */,
+				2C64DDBF1C43D63100244C4B /* OvalCompiler.framework in Frameworks */,
+				07EAD0631EFFD3AE00E272A6 /* ExternalAccessory.framework in Frameworks */,
+				2C64DDC21C43D63100244C4B /* RobotUIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C64DD721C43C97000244C4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C64DD7D1C43C97000244C4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C64DD951C43C97000244C4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07EAD0611EFFD3AE00E272A6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07EAD0621EFFD3AE00E272A6 /* ExternalAccessory.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2C64DD581C43C97000244C4B = {
+			isa = PBXGroup;
+			children = (
+				2C64DDBB1C43D63100244C4B /* OvalCompiler.framework */,
+				2C64DDBC1C43D63100244C4B /* RobotKit.framework */,
+				2C64DDBD1C43D63100244C4B /* RobotUIKit.bundle */,
+				2C64DDBE1C43D63100244C4B /* RobotUIKit.framework */,
+				2C64DD631C43C97000244C4B /* ELSphero */,
+				2C64DD781C43C97000244C4B /* ELSpheroTests */,
+				2C64DD831C43C97000244C4B /* ELSpheroUITests */,
+				2C64DD8D1C43C97000244C4B /* ELSphero WatchKit App */,
+				2C64DD9C1C43C97000244C4B /* ELSphero WatchKit Extension */,
+				2C64DD621C43C97000244C4B /* Products */,
+				2C64DDC31C43D75B00244C4B /* OvalSampleSwift-Bridging-Header.h */,
+				07EAD0611EFFD3AE00E272A6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2C64DD621C43C97000244C4B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C64DD611C43C97000244C4B /* ELSphero.app */,
+				2C64DD751C43C97000244C4B /* ELSpheroTests.xctest */,
+				2C64DD801C43C97000244C4B /* ELSpheroUITests.xctest */,
+				2C64DD891C43C97000244C4B /* ELSphero WatchKit App.app */,
+				2C64DD981C43C97000244C4B /* ELSphero WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C64DD631C43C97000244C4B /* ELSphero */ = {
+			isa = PBXGroup;
+			children = (
+				07EAD0641EFFD3AE00E272A6 /* ELSphero.entitlements */,
+				2C64DD641C43C97000244C4B /* AppDelegate.swift */,
+				2C64DD661C43C97000244C4B /* ViewController.swift */,
+				2C64DD681C43C97000244C4B /* Main.storyboard */,
+				2C64DD6B1C43C97000244C4B /* Assets.xcassets */,
+				2C64DD6D1C43C97000244C4B /* LaunchScreen.storyboard */,
+				2C64DD701C43C97000244C4B /* Info.plist */,
+			);
+			path = ELSphero;
+			sourceTree = "<group>";
+		};
+		2C64DD781C43C97000244C4B /* ELSpheroTests */ = {
+			isa = PBXGroup;
+			children = (
+				2C64DD791C43C97000244C4B /* ELSpheroTests.swift */,
+				2C64DD7B1C43C97000244C4B /* Info.plist */,
+			);
+			path = ELSpheroTests;
+			sourceTree = "<group>";
+		};
+		2C64DD831C43C97000244C4B /* ELSpheroUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2C64DD841C43C97000244C4B /* ELSpheroUITests.swift */,
+				2C64DD861C43C97000244C4B /* Info.plist */,
+			);
+			path = ELSpheroUITests;
+			sourceTree = "<group>";
+		};
+		2C64DD8D1C43C97000244C4B /* ELSphero WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				2C64DD8E1C43C97000244C4B /* Interface.storyboard */,
+				2C64DD911C43C97000244C4B /* Assets.xcassets */,
+				2C64DD931C43C97000244C4B /* Info.plist */,
+			);
+			path = "ELSphero WatchKit App";
+			sourceTree = "<group>";
+		};
+		2C64DD9C1C43C97000244C4B /* ELSphero WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				2C64DD9F1C43C97000244C4B /* InterfaceController.swift */,
+				2C64DDA11C43C97000244C4B /* ExtensionDelegate.swift */,
+				2C64DDA31C43C97000244C4B /* NotificationController.swift */,
+				2C64DDA51C43C97000244C4B /* Assets.xcassets */,
+				2C64DDA71C43C97100244C4B /* Info.plist */,
+				2C64DD9D1C43C97000244C4B /* Supporting Files */,
+			);
+			path = "ELSphero WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		2C64DD9D1C43C97000244C4B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2C64DD9E1C43C97000244C4B /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C64DD601C43C97000244C4B /* ELSphero */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C64DDB21C43C97100244C4B /* Build configuration list for PBXNativeTarget "ELSphero" */;
+			buildPhases = (
+				2C64DD5D1C43C97000244C4B /* Sources */,
+				2C64DD5E1C43C97000244C4B /* Frameworks */,
+				2C64DD5F1C43C97000244C4B /* Resources */,
+				2C64DDB11C43C97100244C4B /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C64DD8C1C43C97000244C4B /* PBXTargetDependency */,
+			);
+			name = ELSphero;
+			productName = ELSphero;
+			productReference = 2C64DD611C43C97000244C4B /* ELSphero.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2C64DD741C43C97000244C4B /* ELSpheroTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C64DDB51C43C97100244C4B /* Build configuration list for PBXNativeTarget "ELSpheroTests" */;
+			buildPhases = (
+				2C64DD711C43C97000244C4B /* Sources */,
+				2C64DD721C43C97000244C4B /* Frameworks */,
+				2C64DD731C43C97000244C4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C64DD771C43C97000244C4B /* PBXTargetDependency */,
+			);
+			name = ELSpheroTests;
+			productName = ELSpheroTests;
+			productReference = 2C64DD751C43C97000244C4B /* ELSpheroTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2C64DD7F1C43C97000244C4B /* ELSpheroUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C64DDB81C43C97100244C4B /* Build configuration list for PBXNativeTarget "ELSpheroUITests" */;
+			buildPhases = (
+				2C64DD7C1C43C97000244C4B /* Sources */,
+				2C64DD7D1C43C97000244C4B /* Frameworks */,
+				2C64DD7E1C43C97000244C4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C64DD821C43C97000244C4B /* PBXTargetDependency */,
+			);
+			name = ELSpheroUITests;
+			productName = ELSpheroUITests;
+			productReference = 2C64DD801C43C97000244C4B /* ELSpheroUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		2C64DD881C43C97000244C4B /* ELSphero WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C64DDAE1C43C97100244C4B /* Build configuration list for PBXNativeTarget "ELSphero WatchKit App" */;
+			buildPhases = (
+				2C64DD871C43C97000244C4B /* Resources */,
+				2C64DDAD1C43C97100244C4B /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C64DD9B1C43C97000244C4B /* PBXTargetDependency */,
+			);
+			name = "ELSphero WatchKit App";
+			productName = "ELSphero WatchKit App";
+			productReference = 2C64DD891C43C97000244C4B /* ELSphero WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		2C64DD971C43C97000244C4B /* ELSphero WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C64DDAA1C43C97100244C4B /* Build configuration list for PBXNativeTarget "ELSphero WatchKit Extension" */;
+			buildPhases = (
+				2C64DD941C43C97000244C4B /* Sources */,
+				2C64DD951C43C97000244C4B /* Frameworks */,
+				2C64DD961C43C97000244C4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ELSphero WatchKit Extension";
+			productName = "ELSphero WatchKit Extension";
+			productReference = 2C64DD981C43C97000244C4B /* ELSphero WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C64DD591C43C97000244C4B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Dmitriy;
+				TargetAttributes = {
+					2C64DD601C43C97000244C4B = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = SQ8Y8RM5P2;
+						LastSwiftMigration = 0830;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+							com.apple.WAC = {
+								enabled = 1;
+							};
+						};
+					};
+					2C64DD741C43C97000244C4B = {
+						CreatedOnToolsVersion = 7.2;
+						LastSwiftMigration = 0830;
+						TestTargetID = 2C64DD601C43C97000244C4B;
+					};
+					2C64DD7F1C43C97000244C4B = {
+						CreatedOnToolsVersion = 7.2;
+						LastSwiftMigration = 0830;
+						TestTargetID = 2C64DD601C43C97000244C4B;
+					};
+					2C64DD881C43C97000244C4B = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 6DQ537PE5K;
+						LastSwiftMigration = 0830;
+					};
+					2C64DD971C43C97000244C4B = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 6DQ537PE5K;
+						LastSwiftMigration = 0830;
+					};
+				};
+			};
+			buildConfigurationList = 2C64DD5C1C43C97000244C4B /* Build configuration list for PBXProject "ELSphero" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2C64DD581C43C97000244C4B;
+			productRefGroup = 2C64DD621C43C97000244C4B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C64DD601C43C97000244C4B /* ELSphero */,
+				2C64DD741C43C97000244C4B /* ELSpheroTests */,
+				2C64DD7F1C43C97000244C4B /* ELSpheroUITests */,
+				2C64DD881C43C97000244C4B /* ELSphero WatchKit App */,
+				2C64DD971C43C97000244C4B /* ELSphero WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C64DD5F1C43C97000244C4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C64DD6F1C43C97000244C4B /* LaunchScreen.storyboard in Resources */,
+				2C64DDC11C43D63100244C4B /* RobotUIKit.bundle in Resources */,
+				2C64DD6C1C43C97000244C4B /* Assets.xcassets in Resources */,
+				2C64DD6A1C43C97000244C4B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C64DD731C43C97000244C4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C64DD7E1C43C97000244C4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C64DD871C43C97000244C4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C64DD921C43C97000244C4B /* Assets.xcassets in Resources */,
+				2C64DD901C43C97000244C4B /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C64DD961C43C97000244C4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C64DDA61C43C97000244C4B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C64DD5D1C43C97000244C4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C64DD671C43C97000244C4B /* ViewController.swift in Sources */,
+				2C64DD651C43C97000244C4B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C64DD711C43C97000244C4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C64DD7A1C43C97000244C4B /* ELSpheroTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C64DD7C1C43C97000244C4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C64DD851C43C97000244C4B /* ELSpheroUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C64DD941C43C97000244C4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C64DDA41C43C97000244C4B /* NotificationController.swift in Sources */,
+				2C64DDA21C43C97000244C4B /* ExtensionDelegate.swift in Sources */,
+				2C64DDA01C43C97000244C4B /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2C64DD771C43C97000244C4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C64DD601C43C97000244C4B /* ELSphero */;
+			targetProxy = 2C64DD761C43C97000244C4B /* PBXContainerItemProxy */;
+		};
+		2C64DD821C43C97000244C4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C64DD601C43C97000244C4B /* ELSphero */;
+			targetProxy = 2C64DD811C43C97000244C4B /* PBXContainerItemProxy */;
+		};
+		2C64DD8C1C43C97000244C4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C64DD881C43C97000244C4B /* ELSphero WatchKit App */;
+			targetProxy = 2C64DD8B1C43C97000244C4B /* PBXContainerItemProxy */;
+		};
+		2C64DD9B1C43C97000244C4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C64DD971C43C97000244C4B /* ELSphero WatchKit Extension */;
+			targetProxy = 2C64DD9A1C43C97000244C4B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2C64DD681C43C97000244C4B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C64DD691C43C97000244C4B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2C64DD6D1C43C97000244C4B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C64DD6E1C43C97000244C4B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		2C64DD8E1C43C97000244C4B /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C64DD8F1C43C97000244C4B /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2C64DDA81C43C97100244C4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+				);
+				PROVISIONING_PROFILE = "da25f729-88a6-4b9e-a862-6ce4ca7eca5f";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2C64DDA91C43C97100244C4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+				);
+				PROVISIONING_PROFILE = "da25f729-88a6-4b9e-a862-6ce4ca7eca5f";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2C64DDAB1C43C97100244C4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "ELSphero WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Dmitriy.ELSphero.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Debug;
+		};
+		2C64DDAC1C43C97100244C4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "ELSphero WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Dmitriy.ELSphero.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Release;
+		};
+		2C64DDAF1C43C97100244C4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = ELSphero_WatchKit_Extension;
+				INFOPLIST_FILE = "ELSphero WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = Dmitriy.ELSphero.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Debug;
+		};
+		2C64DDB01C43C97100244C4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = ELSphero_WatchKit_Extension;
+				INFOPLIST_FILE = "ELSphero WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = Dmitriy.ELSphero.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Release;
+		};
+		2C64DDB31C43C97100244C4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ELSphero/ELSphero.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = SQ8Y8RM5P2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Externals",
+				);
+				INFOPLIST_FILE = ELSphero/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.watch.Sphero;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "OvalSampleSwift-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2C64DDB41C43C97100244C4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ELSphero/ELSphero.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = SQ8Y8RM5P2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Externals",
+				);
+				INFOPLIST_FILE = ELSphero/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.watch.Sphero;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "OvalSampleSwift-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2C64DDB61C43C97100244C4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ELSpheroTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Dmitriy.ELSpheroTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ELSphero.app/ELSphero";
+			};
+			name = Debug;
+		};
+		2C64DDB71C43C97100244C4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ELSpheroTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Dmitriy.ELSpheroTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ELSphero.app/ELSphero";
+			};
+			name = Release;
+		};
+		2C64DDB91C43C97100244C4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ELSpheroUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Dmitriy.ELSpheroUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ELSphero;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		2C64DDBA1C43C97100244C4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ELSpheroUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Dmitriy.ELSpheroUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ELSphero;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C64DD5C1C43C97000244C4B /* Build configuration list for PBXProject "ELSphero" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C64DDA81C43C97100244C4B /* Debug */,
+				2C64DDA91C43C97100244C4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C64DDAA1C43C97100244C4B /* Build configuration list for PBXNativeTarget "ELSphero WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C64DDAB1C43C97100244C4B /* Debug */,
+				2C64DDAC1C43C97100244C4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C64DDAE1C43C97100244C4B /* Build configuration list for PBXNativeTarget "ELSphero WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C64DDAF1C43C97100244C4B /* Debug */,
+				2C64DDB01C43C97100244C4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C64DDB21C43C97100244C4B /* Build configuration list for PBXNativeTarget "ELSphero" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C64DDB31C43C97100244C4B /* Debug */,
+				2C64DDB41C43C97100244C4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C64DDB51C43C97100244C4B /* Build configuration list for PBXNativeTarget "ELSpheroTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C64DDB61C43C97100244C4B /* Debug */,
+				2C64DDB71C43C97100244C4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C64DDB81C43C97100244C4B /* Build configuration list for PBXNativeTarget "ELSpheroUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C64DDB91C43C97100244C4B /* Debug */,
+				2C64DDBA1C43C97100244C4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2C64DD591C43C97000244C4B /* Project object */;
+}
